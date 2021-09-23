@@ -1,6 +1,7 @@
 import Head from 'next/head'
 import Image from 'next/image'
 import styles from '../styles/Home.module.css'
+import { storeImageData } from '@resoc/create-img'
 
 export default function Home() {
   return (
@@ -66,4 +67,23 @@ export default function Home() {
       </footer>
     </div>
   )
+}
+
+export async function getStaticProps(context) {
+  await storeImageData(
+    'resoc-image-data.json',
+    'homepage', {
+      template: 'default',
+      values: {
+        title: 'Sample homepage',
+        mainImageUrl: 'https://resoc.io/assets/img/demo/photos/pexels-photo-371589.jpeg',
+        textColor: '#ffffff',
+        backgroundColor: '#20552a'
+      }
+    }
+  );
+
+  return {
+    props: {}
+  }
 }

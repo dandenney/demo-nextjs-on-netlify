@@ -1,0 +1,5 @@
+[[plugins]]
+package = "@resoc/netlify-plugin-social-image"
+  [plugins.inputs]
+  templates_dir = "resoc-templates"
+  slug_to_image_data_mapping_file = "resoc-image-data.json"
