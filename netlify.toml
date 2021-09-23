@@ -3,3 +3,4 @@ package = "@resoc/netlify-plugin-social-image"
   [plugins.inputs]
   templates_dir = "resoc-templates"
   slug_to_image_data_mapping_file = "resoc-image-data.json"
+  open_graph_base_path = "/social-images"
