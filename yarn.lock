@@ -221,6 +221,14 @@
     axios "^0.21.1"
     mustache "^4.2.0"
 
+"@resoc/core@^0.6.0":
+  version "0.6.0"
+  resolved "https://registry.yarnpkg.com/@resoc/core/-/core-0.6.0.tgz#e53a6701c8d643775949de38a6da9e9c64cba935"
+  integrity sha512-YmpCM507L1UcwW/r070Xjrdsmvjf5M6y4/xwWQu3Y2/SCx0QxJIvkW8aZUtZHhNENr3GZvkffRX071tWDtA9ww==
+  dependencies:
+    axios "^0.21.1"
+    mustache "^4.2.0"
+
 "@resoc/create-img@^0.5.4":
   version "0.5.4"
   resolved "https://registry.yarnpkg.com/@resoc/create-img/-/create-img-0.5.4.tgz#334c73292b1eede6acddc098fe7aa198168c3211"
@@ -233,6 +241,13 @@
     recursive-copy "^2.0.13"
     sha256 "^0.2.0"
     uuid "^8.3.2"
+
+"@resoc/img-data@^0.6.0":
+  version "0.6.0"
+  resolved "https://registry.yarnpkg.com/@resoc/img-data/-/img-data-0.6.0.tgz#6d59275e75f957149171832018c8754b1707760e"
+  integrity sha512-AdNhyHqL5Kz6UFthcas7eBClq2sXNAir1AFxLkHuv1hTsJ9yR7GfAclK9PxWskb6Vtye1DwVlM73RuGCJTaufg==
+  dependencies:
+    "@resoc/core" "^0.6.0"
 
 "@resoc/netlify-plugin-social-image@^0.0.1":
   version "0.0.1"
