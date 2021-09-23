@@ -249,10 +249,10 @@
   dependencies:
     "@resoc/core" "^0.6.0"
 
-"@resoc/netlify-plugin-social-image@^0.0.2":
-  version "0.0.2"
-  resolved "https://registry.yarnpkg.com/@resoc/netlify-plugin-social-image/-/netlify-plugin-social-image-0.0.2.tgz#1844ef2aed767afb6f66ab63767c68f764708134"
-  integrity sha512-UgrPJD+twneV5pr2Wtv3VbfYpWmfNjxcz1CM+ob5fOceq0Cp2EwQ6hJIBzzuyGYIBO6qRd1qZHtPyH43alndeQ==
+"@resoc/netlify-plugin-social-image@^0.0.3":
+  version "0.0.3"
+  resolved "https://registry.yarnpkg.com/@resoc/netlify-plugin-social-image/-/netlify-plugin-social-image-0.0.3.tgz#09ddf99e7cfe7a226f3e5e1b57360b92dc2d254b"
+  integrity sha512-s5PROHFCgw8MhKbSDfRlZOeVcC2IjgKKjQXmKmCmVl3wKccKD7HjzV6P7FoNTw9TNkUCfQ7m9QkXoMyuXcBdVA==
   dependencies:
     "@netlify/functions" "^0.7.2"
     "@resoc/core" "^0.5.0"
