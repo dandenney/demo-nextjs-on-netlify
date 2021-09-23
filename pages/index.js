@@ -12,8 +12,8 @@ export default function Home() {
 }
 
 export async function getStaticProps(context) {
-  const title = "Automated social image for NextJS on Netlify";
-  const description = "With getStaticProps and a Netlify Function";
+  const title = "Automated social images for NextJS on Netlify";
+  const description = "With getStaticProps and @resoc/netlify-plugin-social-image";
   const imgSlug = 'homepage';
 
   await storeImageData(
