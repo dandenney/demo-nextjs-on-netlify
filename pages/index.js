@@ -20,12 +20,7 @@ export async function getStaticProps(context) {
     'resoc-image-data.json',
     imgSlug, {
       template: 'default',
-      values: {
-        title,
-        mainImageUrl: 'https://resoc.io/assets/img/demo/photos/pexels-photo-371589.jpeg',
-        textColor: '#ffffff',
-        backgroundColor: '#20552a'
-      }
+      values: { title, description }
     }
   );
 
