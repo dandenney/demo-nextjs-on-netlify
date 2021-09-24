@@ -55,8 +55,8 @@ const prepareStaticProps = async (title, description, imgSlug) => {
 
 export async function getStaticProps(context) {
   return await prepareStaticProps(
-    "Automated social images for NextJS on Netlify",
-    "With getStaticProps and @resoc/netlify-plugin-social-image",
+    "Automated social images on Netlify - with Next.js and Resoc",
+    "Let's create awesome, automated social images with HTML & CSS and just a few lines of code",
     "homepage"
   );
 }
