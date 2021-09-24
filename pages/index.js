@@ -25,7 +25,7 @@ export default function Home() {
             <p>Submit this page to the Facebook debugger, or share it on a social network.</p>
           </a>
 
-          <a href="https://nextjs.org/learn" className={styles.card}>
+          <a href="https://blog.philippebernard.dev/automated-social-images-on-netlify-with-nextjs-and-resoc" className={styles.card}>
             <h2>Learn &rarr;</h2>
             <p>Follow the tutorial and build this app yourself.</p>
           </a>
