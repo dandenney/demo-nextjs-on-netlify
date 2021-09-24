@@ -9,11 +9,7 @@ export default function Home() {
   )
 }
 
-export async function getStaticProps(context) {
-  const title = "Automated social images for NextJS on Netlify";
-  const description = "With getStaticProps and @resoc/netlify-plugin-social-image";
-  const imgSlug = 'homepage';
-
+const prepareStaticProps = async (title, description, imgSlug) => {
   await storeImageData(
     'resoc-image-data.json',
     imgSlug, {
@@ -28,5 +24,13 @@ export async function getStaticProps(context) {
       description,
       imgSlug
     }
-  }
+  };
+}
+
+export async function getStaticProps(context) {
+  return await prepareStaticProps(
+    "Automated social images for NextJS on Netlify",
+    "With getStaticProps and @resoc/netlify-plugin-social-image",
+    "homepage"
+  );
 }
